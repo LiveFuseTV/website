@@ -1,0 +1,17 @@
+#svg-image-blur{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+}
+
+.blur-page { 
+  -webkit-transition: all 0.3s ease-out; 
+     -moz-transition: all 0.3s ease-out; 
+      -ms-transition: all 0.3s ease-out; 
+       -o-transition: all 0.3s ease-out; 
+          transition: all 0.3s ease-out;
+
+	-webkit-filter: blur(2px); 
+	filter: url(#blur-effect-1); 
+} 

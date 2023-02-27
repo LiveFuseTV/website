@@ -1,0 +1,72 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 7, ../sass/ie.scss */
+.countdown-show4 .countdown-section {
+  width: 21.75%;
+}
+
+/* line 12, ../sass/ie.scss */
+#mc_embed_signup input[type="text"] {
+  height: 50px;
+  width: 555px;
+  background: none;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  color: #fefefe;
+  padding: 0 15px;
+  font-weight: 300;
+  font-size: 1.3em;
+  letter-spacing: -0.019em;
+}
+
+@media (max-width: 1199px) {
+  /* line 31, ../sass/ie.scss */
+  .countdown-show4 .countdown-section {
+    width: 23.06%;
+  }
+
+  /* line 35, ../sass/ie.scss */
+  #mc_embed_signup input[type="text"] {
+    width: 575px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 46, ../sass/ie.scss */
+  .countdown-show4 .countdown-section {
+    width: 157px;
+  }
+
+  /* line 52, ../sass/ie.scss */
+  #mc_embed_signup input[type="text"] {
+    width: 532px;
+    letter-spacing: -0.059em;
+  }
+  /* line 56, ../sass/ie.scss */
+  #mc_embed_signup input[type="submit"] {
+    width: 157px;
+    margin-right: 1px;
+    letter-spacing: 0.01em;
+    padding-top: 0px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 69, ../sass/ie.scss */
+  .countdown-show4 .countdown-section {
+    width: 138px;
+  }
+
+  /* line 74, ../sass/ie.scss */
+  #mc_embed_signup input[type="text"] {
+    width: 290px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 0 10px;
+    letter-spacing: 0.032em;
+    font-size: 0.95em;
+  }
+}
